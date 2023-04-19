@@ -1,0 +1,9 @@
+<h2>{albumName}</h2>
+            <img src={albumImage} alt={albumName} />
+            <p>Release date: {albumReleaseDate}</p>
+            <p>Total tracks: {albumTotalTracks}</p>
+            <p>Type: {albumType}</p>
+            <p>Label: {albumLabel}</p>
+            <p>Popularity: {albumPopularity}</p>
+            <p>Genres: {albumGenres}</p>
+            <p>Artist: {albumArtist}</p>

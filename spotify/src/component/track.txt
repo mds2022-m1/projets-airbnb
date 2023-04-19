@@ -1,0 +1,27 @@
+<Container className="card-content">
+                <Row className="mx-2 row row-cols-4">
+                {album.map((infAlbum, i) => {
+                    console.log(album)
+                    return (
+                        <Card>
+                            <Card.Img src={infAlbum.images[0].url}/>
+                            <Card.Body>
+                                <Card.Title>`{infAlbum.name} - {infAlbum.artists.name}`</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    )
+                })}
+                </Row>
+            </Container>
+<Container className="card-content">
+                <Row className="mx-2 row row-cols-4">
+                {albums.map((album, i) => {
+                    console.log(album)
+                    return (
+                        <ul>
+                            <li>{album.tracks.items.name}</li>
+                        </ul>
+                    )
+                })}
+                </Row>
+            </Container>

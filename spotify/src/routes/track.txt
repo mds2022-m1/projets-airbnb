@@ -1,0 +1,12 @@
+<Container className="card-content">
+        <Row className="mx-2 row row-cols-4">
+          {tracksPlaylist.map((track, i) => {
+            console.log(track)
+            return (
+              <ul>
+                <li>{track.track.name}</li>
+              </ul>
+            )
+          })}
+        </Row>
+      </Container>
