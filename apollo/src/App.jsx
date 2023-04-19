@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { useQuery, gql } from '@apollo/client';
 import './App.css'
+import AddTodo from './add-todo';
 
 export default function App() {
 
@@ -50,6 +51,7 @@ function DisplayTodos() {
       <h2>My first Apollo app 🚀</h2>
       <br/>
       <DisplayTodos />
+      <AddTodo />
     </div>
   )
 }
